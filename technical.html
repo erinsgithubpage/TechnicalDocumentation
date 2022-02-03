@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Technical Documentation Page - WordPress</title>
+</head>
+
+<body>
+  <header id="main-header">
+    <nav id="navbar">
+      <h1>WordPress Documentation</h1>
+      <ul>
+        <li class="nav-link"><a href="#introduction">Introduction</a></li>
+        <li class="nav-link"><a href="#what-you">What you should already know</a></li>
+        <li class="nav-link"><a href="#plugins">Plugins</a></li>
+        <li class="nav-link"><a href="#updates">Updates</a></li>
+        <li class="nav-link"><a href="#custom-css">Custom CSS</a></li>
+        <li class="nav-link"><a href="#html">HTML</a></li>
+        <li class="nav-link"><a href="#themes">Themes</a></li>
+        <li class="nav-link"><a href="#media">Media</a></li>
+        <li class="nav-link"><a href="#backups">Backups</a></li>
+        <li class="nav-link"><a href="#Security">Security</a></li>
+        <li class="nav-link"><a href="#white-screen">The Dreaded White Screen</a></li>
+        <li class="nav-link"><a href="#password-protect">Password Protect Pages</a></li>
+        <li class="nav-link"><a href="#staging-sites">Staging Sites</a></li>
+        <li class="nav-link"><a href="#reference">Responsivity</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main id="main-doc">
+    <section class="main-section" id="introduction">
+      <header>Introduction</header>
+      <article class="main-article">
+        <p>WordPress is a popular CMS (content management system) platform used in over 60% of Websites worldwide. It's ever-growing popularity has deemed it the CMS of choice. Its simplicity offers a no-coding technique to Web Development.</p>
+        <p>WordPress operates on both front-end and back-end technologies.</p>
+        <ul>
+          <li>WordPress front-end editing is very user-friendly. Users can navigate around very easily and edit, create, and maintain Webpages and blogs.</li>
+          <li>The back-end of WordPress consists primarily of PHP code. PHP (pre-hypertext processor) is a necessity to know when editing via the back-end. The back-end is where all of the foundations of WordPress take place. From FTP (file transfer protocol) to the cPanel, PHP is where it is at when it comes to WordPress back-end editing!</li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="main-section" id="what-you">
+      <header>What you should already know</header>
+      <article class="main-article">
+        <p>This guide assumes you have the following basic background:</p>
+        <ul>
+          <li>A general understanding of WordPress and the World Wide Web.</li>
+          <li>Good working knowledge of both HTML and CSS.</li>
+          <li>Some Web development experience. If you are new to WordPress, try one of the tutorials on YouTube on WordPress.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="main-section" id="plugins">
+      <header>Plugins</header>
+      <article class="main-article">
+        <p>Plugins are additional software packages that are installed on WordPress to ensure additional features and operational techniques.</p>
+        <p>In contrast to a bare-boned WordPress platform, plugins give additional features and accesibilities.</p>
+        <p>It is higly important to update plugins as notified. Just wait a few days for a patch to become availabe, should there be security holes. Outdated plugins can serve as a gateway for users to enter malicous code into your WordPress site.</p>
+      </article>
+    </section>
+
+    <section class="main-section" id="custom-css">
+      <header>Custom CSS</header>
+      <article class="main-article">
+        <p>CSS (cascade style sheets) coding can be used to customize themes. It is more useful to edit CSS in the cPanel or FTP, while creating a child theme. Entering direct CSS code into your WordPress site without a child theme will only result in the loss of code upon theme updates.</p>
+        </article>
+    </section>
+
+    <section class="main-section" id="html">
+      <header>HTML</header>
+      <article class="main-article">
+        <p>HTML is useful when editing in certain page editors. It is very useful to know HTML when tweaking pages to allow for custom programming..</p>
+        <p>W3Schools offers excellent educational platforms to learn code.
+		<p>You can then proceed into your site's admin panel to custom code your site!</p>
+      </article>
+    </section>
+
+    <section class="main-section" id="themes">
+      <header>Themes</header>
+      <article class="main-article">
+        <p>You find many themes in WordPress and there are many ways to work with them:</p>
+        <p>Select the desired theme and install it on a staging site first to see if it will make or break your site.</p>
+        <p>Update your theme first on a staging site to see how it will take effect.</p>
+        <p>Custom-code it by using a child theme.</p>
+        <p>Keep your theme updated to avoid unecessary problems down the road.</p>
+        
+      </article>
+    </section>
+
+    <section class="main-section" id="media">
+      <header>Media</header>
+      <article class="main-article">
+        <p>Media can be uploaded using the "Media" tab in the admin panel.</p>
+        <p>Simply click "upload" and select the media type to be uploaded. If it is an image, always add alt text to ensure visibility for all users.</p>
+        <p>Always optimize your images either through a plugin, or photo editing software program.</p>
+        </article>
+    </section>
+
+    <section class="main-section" id="backups">
+      <header>Backups</header>
+      <article class="main-article">
+        <p>Backups can be done with a plugin.</p>
+        <p>Get in the habit of backing up your WordPress site both weekly and before you make major changes to it. It is always great having a backup, should something go wrong in the process of making changes to your site.</p>
+      </article>
+    </section>
+
+    <section class="main-section" id="security">
+      <header>Security</header>
+      <article class="main-article">
+        <p>Security is so crucial to your site. Use security plugins to ensure optimal safety.</p>
+        <p>Malicious bots scan your site for vulnerabilities and then attack when the time is right. Be on top of this through prevention!</p>
+       </article>
+    </section>
+
+    <section class="main-section" id="white-screen">
+      <header>Dreaded White Screen</header>
+      <article class="main-article">
+        <p>Occasionally, the white screen will present itself. This is what you can do to fix it:</p>
+        <ul>
+          <li>
+            <p>If you cannot login, go to FTP and open up the configuration file. Add a few letters to the end of the name of the plugin file. This will deactivate all plugins.</p>
+            <ul>
+              <li>Then log in to the admin panel.</li>
+              <li>Go through each plugin and activate each one to see where the problem occured.</li>
+              <li>If this fails, then check the database connection.</li>
+              <li>If this fails, check the current version of PHP and update as necessary.</li>
+             </ul>
+          </li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="main-section" id="password-protect">
+      <header>Password protect your login pages</header>
+      <article class="main-article">
+        <p>Use a plugin and configure it to password protect all of your login pages.</p>
+        <p>This will improve your site's safety, as it will prevent malicious bots from attempting brute-force attack methods to gain entry.</p>
+       </article>
+    </section>
+
+    <section class="main-section" id="staging-sites">
+      <header>Staging sites</header>
+      <article class="main-article">
+        <p>Staging sites are highly recommended when wanting to do changes to your site.</p>
+        <p>Install a staging plugin.</p>
+        <p>Perform all work on a staging site first to see its impact on the site.</p>
+        <p>Then, make necessary changes on your production site or push the changes through.</p>
+        </article>
+    </section>
+
+    <section class="main-section" id="responsivity">
+      <header>Responsivity</header>
+      <article class="main-article">
+        <p>Make your site responsive through CSS coding.</p>
+        <p>Preferably, code the site on FTP or cPanel. This method is more effective and causes less confusion when you have multiple users on your site.</p>
+       </article>
+    </section>
+
+ 
+    <p id="creator">This page created by <a href="https://erinhazelwood.org/">Erin Hazelwood</a></p>
+  </main>
+</body>
+
+</html>
